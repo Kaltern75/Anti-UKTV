@@ -1,0 +1,22 @@
+﻿{
+  "manifest_version": 3,
+  "name": "AntiUKTV",
+  "version": "1.0.0",
+  "description": "Force-hides BBC, ITV and Channel 4 channels from YouTube feeds, search results and recommendations.",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": {
+    "default_title": "AntiUKTV",
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["hide.css"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ]
+}
