@@ -1,0 +1,23 @@
+﻿AntiUKTV - Installation
+=======================
+
+This hides BBC, ITV and Channel 4 channels from YouTube.
+
+1. You have already unzipped this folder (AntiUKTV). Keep it somewhere
+   permanent - if you delete or move it later, the extension stops working.
+
+2. Open your browser and go to one of these addresses:
+      Chrome:  chrome://extensions
+      Edge:    edge://extensions
+
+3. Turn ON "Developer mode" (a switch in the top-right corner).
+
+4. Click "Load unpacked".
+
+5. Select this AntiUKTV folder and click Select Folder.
+
+Done. Open YouTube - BBC / ITV / Channel 4 content will be gone.
+Click the AntiUKTV toolbar icon any time to switch it on or off.
+
+Note: because this is a "developer mode" extension, your browser may show a
+reminder about it now and then - that is normal and safe to dismiss.
